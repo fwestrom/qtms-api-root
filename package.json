@@ -1,0 +1,15 @@
+{
+  "name": "qtms-api-root",
+  "version": "1.0.0",
+  "description": "API root service for Qtort Microservices",
+  "main": "qtms-api-root.js",
+  "dependencies": {
+    "qtort-microservices": "^1.1.5"
+  },
+  "scripts": {
+    "watch": "node_modules/.bin/nodemon qtms-api-root"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
